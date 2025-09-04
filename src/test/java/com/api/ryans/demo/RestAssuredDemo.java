@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class RestAssuredDemo {
     @Test
-    public void test1() {
+    public void testGET() {
         // 普通导入: RestAssured是个工具类，所有的方法都是通过"类名."的方式来调用
         // RestAssured.get();
 
